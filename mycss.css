@@ -18,7 +18,7 @@
   z-index: 100;
   margin: 1em auto;
   display: block;
-  font-family: Vizilo;
+  font-family: Vizilo-title;
   border: none;
   font-size: 30px;
   background: transparent;
@@ -85,7 +85,7 @@
 /*custom font for the website */
 @font-face {
     font-family: Vizilo-title;
-    src: url(Belgrad.ttf);
+    src: url(SpireAlt.ttf);
     font-weight: bold;
 }
 @font-face {
@@ -159,6 +159,10 @@ font-family: Vizilo;
  img#pic {
     max-width: 100%;
     max-height: 100%;
+  }
+   .logo img {
+  height: 100px;
+    width: 100px;
   }
 img#pic1 {
     max-width: 200;

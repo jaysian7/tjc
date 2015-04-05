@@ -90,6 +90,7 @@ $('.front').bxSlider({
   slideWidth: 170,
   slideMargin: 10,
   ticker: true,
-  speed: 9000
+  tickerHover:true,
+  speed: 11000
 });
 });
