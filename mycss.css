@@ -165,8 +165,8 @@ font-family: Vizilo;
     width: 100px;
   }
 img#pic1 {
-    max-width: 200;
-    max-height: 200;
+    max-width: 50%;
+    max-height: 50%;
   }
   /*removed a change */
   /* css for the button on first page */

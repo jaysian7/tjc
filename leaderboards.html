@@ -43,7 +43,7 @@
   color: #330;
   text-shadow: 0 0 .3em white;}
   #main_background { background: navy; } 
-  #column1 { background: #262623; }
+  #column1 { background: #000000; }
   #column2 { background: #8A0000; }
   #column3 { background: navy; }
   #column4 { background: #E37676; }
@@ -118,7 +118,17 @@
           <li><img id="pic"src="resources/pictures/Models Gap/DR3.jpg" title="Funky roots"/></li>
           <li><img id="pic"src="resources/pictures/Models Gap/DR4.jpg" title="Funky roots"/></li>
         </ul>
-        <h3 class="container-fluid">These Are our wonderful Clothes <strong>Pick Your Favortie!</strong></h3>
+        <table class="table table-hover"data-url="scores.json" data-height="299" data-click-to-select="true" data-select-item-name="radioName">
+              <thead>
+        <tr>
+            <th data-field="state" data-radio="true"></th>
+            <th data-field="id" data-align="right">Item ID</th>
+            <th data-field="name" data-align="center">Item Name</th>
+            <th data-field="price" data-align="left">Item Price</th>
+        </tr>
+    </thead>
+  ...
+        </table>
       </div>
     </div>
   </section>
